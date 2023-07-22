@@ -47,7 +47,9 @@ $[position.x=11,y=-3 $[fg.color=fff 仙台]
 $[fg.color=fff ${res['仙台']['emoji']}] $[fg.color=f22 ${res['仙台']['temp']}]]
 $[position.y=-11 $[bg.color=ccc $[fg.color=111 ${target_date.slice(-2)}日の予報
 気象庁
-${report_time.slice(8,10)}日${report_time.slice(11,13)}時発表]]]`
+${report_time.slice(8,10)}日${report_time.slice(11,13)}時発表]]]
+
+https://www.jma.go.jp/bosai/forecast/`
 
 console.log(txt)
 const data = {
