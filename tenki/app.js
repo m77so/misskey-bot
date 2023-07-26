@@ -55,7 +55,7 @@ console.log(txt)
 const data = {
       i: token,
       text: txt,
-      visibility: 'home'
+      visibility: 'public'
     };
 
     axios.post(url, data, {
